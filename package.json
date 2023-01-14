@@ -1,0 +1,30 @@
+{
+  "author": "Justin Chiou <justin@wunderfund.co>",
+  "bugs": {
+    "url": "https://github.com/shadowlion/transactapi-node-sdk-unofficial/issues"
+  },
+  "description": "New Year, new stack for using TransactAPI and Typescript.",
+  "devDependencies": {
+    "@changesets/cli": "^2.26.0",
+    "prettier": "^2.8.3",
+    "tsup": "^6.5.0",
+    "typescript": "^4.9.4"
+  },
+  "homepage": "https://github.com/shadowlion/transactapi-node-sdk-unofficial#readme",
+  "keywords": [],
+  "license": "MIT",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "name": "transactapi-node-sdk-unofficial",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shadowlion/transactapi-node-sdk-unofficial.git"
+  },
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "lint": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.0.1"
+}
